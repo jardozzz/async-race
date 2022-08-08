@@ -10,8 +10,8 @@ class Draw {
   topRender():void {
     document.body.innerHTML = '';
     const statecontainer = ElementCreator('div', undefined, ['statecontainer'], document.body);
-    ElementCreator('button', 'Garage', ['reset', 'create', 'garageRender'], statecontainer);
-    ElementCreator('button', 'Winners', ['reset', 'create', 'WinnersRender'], statecontainer);
+    ElementCreator('button', 'Garage', ['reset',  'garageRender'], statecontainer);
+    ElementCreator('button', 'Winners', ['reset',  'WinnersRender'], statecontainer);
   }
 
   garageRender():void {

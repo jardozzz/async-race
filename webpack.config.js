@@ -1,4 +1,4 @@
-/* eslint-disable global-require */
+
 /* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
 const { merge } = require('webpack-merge');
