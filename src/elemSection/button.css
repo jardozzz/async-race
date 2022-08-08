@@ -1,0 +1,14 @@
+.reset{
+  width:60px;
+  height:20px;
+  background-color: lightgreen;
+  border:1px solid red;
+  cursor:pointer
+}
+.cargen{
+  width:120px;
+}
+.control{
+  width:50px;
+
+}
